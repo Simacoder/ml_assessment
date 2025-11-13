@@ -55,7 +55,7 @@ Click **Cell → Run All** (or press `Ctrl+Shift+Enter`)
 
 ## 📁 Project Structure
 
-`ml_assessment/
+```bash ml_assessment/
 ├──  house_price_data_analysis.ipynb       # Main notebook (run this!)
 ├── README.md                            # This file
 ├── data/
