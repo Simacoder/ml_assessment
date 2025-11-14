@@ -6,20 +6,20 @@ A comprehensive end-to-end machine learning project demonstrating exploratory da
 
 ---
 
-## 📋 Overview
+##  Overview
 
 This project performs a complete data science workflow:
 
-✅ **Exploratory Data Analysis** - Understand data structure, distributions, and relationships  
-✅ **Data Cleaning** - Handle missing values, outliers, and data quality issues  
-✅ **Feature Engineering** - Create new features to improve model performance  
-✅ **Categorical Encoding** - Convert categorical variables for modeling  
-✅ **Model Training** - Train and compare 3 regression algorithms  
-✅ **Test Predictions** - Generate predictions for Kaggle submission  
+- **Exploratory Data Analysis** - Understand data structure, distributions, and relationships  
+- **Data Cleaning** - Handle missing values, outliers, and data quality issues  
+- **Feature Engineering** - Create new features to improve model performance  
+- **Categorical Encoding** - Convert categorical variables for modeling  
+- **Model Training** - Train and compare 3 regression algorithms  
+- **Test Predictions** - Generate predictions for Kaggle submission  
 
 ---
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Prerequisites
 - Python 3.8+
@@ -41,7 +41,7 @@ project/
 ├── data/
 │   ├── train.csv
 │   └── test.csv
-└── Housing_Prices_Analysis.ipynb
+└── house_price_data_analysis.ipynb
 ```
 
 ### Step 3: Run the Notebook
@@ -53,9 +53,10 @@ Click **Cell → Run All** (or press `Ctrl+Shift+Enter`)
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
-```bash ml_assessment/
+```bash
+ml_assessment/
 ├──  house_price_data_analysis.ipynb       # Main notebook (run this!)
 ├── README.md                            # This file
 ├── data/
@@ -66,7 +67,7 @@ Click **Cell → Run All** (or press `Ctrl+Shift+Enter`)
 
 ---
 
-## 📊 Notebook Contents
+##  Notebook Contents
 
 ### 1. **Setup & Data Ingestion**
 - Import required libraries (pandas, numpy, matplotlib, seaborn, scikit-learn)
@@ -139,15 +140,15 @@ Trains 3 regression models:
 
 #### Linear Regression
 - Train R²: 0.9753 | Val R²: -0.0660 | RMSE: $90,423
-- ❌ Poor generalization, severe overfitting
+- Poor generalization, severe overfitting
 
 #### Random Forest
 - Train R²: 0.9994 | Val R²: 0.9907 | RMSE: $8,426
-- ✅ Excellent performance, good generalization
+- Excellent performance, good generalization
 
 #### Gradient Boosting (Selected)
 - Train R²: 0.9999 | Val R²: 0.9938 | RMSE: $6,905
-- 🏆 Best performance, minimal overfitting, most accurate
+- Best performance, minimal overfitting, most accurate
 
 ### 9. **Test Predictions**
 - Generates predictions for 1,459 test properties
@@ -162,7 +163,7 @@ Trains 3 regression models:
 
 ---
 
-## 🎯 Key Findings
+##  Key Findings
 
 ### Top Price Drivers (by Correlation)
 
@@ -189,47 +190,47 @@ Trains 3 regression models:
 
 ---
 
-## 📈 Visualizations Included
+##  Visualizations Included
 
-✅ **SalePrice Distribution** - Histogram and Q-Q plot showing right-skewed distribution  
-✅ **Log-Transformed SalePrice** - Normalized distribution after transformation  
-✅ **Feature Distributions** - 8 key numerical features analyzed  
-✅ **Correlation Heatmap** - All feature correlations displayed  
-✅ **Scatter Plots** - Top 5 features vs SalePrice with trend lines  
-✅ **Categorical Analysis** - Average prices by category (neighborhood, type, style, quality)  
+- **SalePrice Distribution** - Histogram and Q-Q plot showing right-skewed distribution  
+- **Log-Transformed SalePrice** - Normalized distribution after transformation  
+- **Feature Distributions** - 8 key numerical features analyzed  
+- **Correlation Heatmap** - All feature correlations displayed  
+- **Scatter Plots** - Top 5 features vs SalePrice with trend lines  
+- **Categorical Analysis** - Average prices by category (neighborhood, type, style, quality)  
 
 ---
 
-## 💡 Project Highlights
+##  Project Highlights
 
 ### Data Processing
-- ✅ Handles 19 missing value patterns
-- ✅ Distinguishes between "absence" and "missing" data
-- ✅ Robust median imputation for numerical features
-- ✅ Mode imputation for categorical features
-- ✅ Applied consistently to train and test sets
+-  Handles 19 missing value patterns
+-  Distinguishes between "absence" and "missing" data
+-  Robust median imputation for numerical features
+-  Mode imputation for categorical features
+-  Applied consistently to train and test sets
 
 ### Feature Engineering
-- ✅ Creates 4 domain-informed features
-- ✅ Captures spatial relationships
-- ✅ Incorporates time-based information
-- ✅ Improves model predictive power
+-  Creates 4 domain-informed features
+-  Captures spatial relationships
+-  Incorporates time-based information
+-  Improves model predictive power
 
 ### Model Development
-- ✅ Trains multiple algorithms
-- ✅ Proper train-validation split (80-20)
-- ✅ RobustScaler for feature normalization
-- ✅ Comprehensive performance metrics
-- ✅ Model comparison and selection
+-  Trains multiple algorithms
+-  Proper train-validation split (80-20)
+-  RobustScaler for feature normalization
+-  Comprehensive performance metrics
+-  Model comparison and selection
 
 ### Output
-- ✅ `predictions.csv` - Ready for Kaggle submission
-- ✅ 1,459 house price predictions
-- ✅ Full reproducibility with documented steps
+-  `predictions.csv` - Ready for Kaggle submission
+-  1,459 house price predictions
+-  Full reproducibility with documented steps
 
 ---
 
-## 🐛 Troubleshooting
+##  Troubleshooting
 
 ### Issue: "FileNotFoundError: data/train.csv not found"
 **Solution:** 
@@ -255,7 +256,7 @@ jupyter notebook
 
 ---
 
-## 📊 Data Summary
+##  Data Summary
 
 ### Training Data (1,460 records)
 - **Target Variable:** SalePrice
@@ -278,21 +279,21 @@ jupyter notebook
 
 ---
 
-## 🎓 Learning Outcomes
+##  Learning Outcomes
 
 After completing this project, you will understand:
 
-✅ **Data Exploration** - How to analyze and understand datasets  
-✅ **Data Cleaning** - Handling missing values and inconsistencies  
-✅ **EDA Techniques** - Visualization and statistical analysis  
-✅ **Feature Engineering** - Creating meaningful features from raw data  
-✅ **Model Selection** - Choosing appropriate algorithms  
-✅ **Model Evaluation** - Assessing performance with proper metrics  
-✅ **Kaggle Workflows** - End-to-end pipeline for competitions  
+- **Data Exploration** - How to analyze and understand datasets  
+- **Data Cleaning** - Handling missing values and inconsistencies  
+- **EDA Techniques** - Visualization and statistical analysis  
+- **Feature Engineering** - Creating meaningful features from raw data  
+- **Model Selection** - Choosing appropriate algorithms  
+- **Model Evaluation** - Assessing performance with proper metrics  
+- **Kaggle Workflows** - End-to-end pipeline for competitions  
 
 ---
 
-## 📚 Resources
+##  Resources
 
 - [Kaggle House Prices Competition](https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques/)
 - [Pandas Documentation](https://pandas.pydata.org/docs/)
@@ -301,24 +302,24 @@ After completing this project, you will understand:
 
 ---
 
-## 📝 Expected Output
+##  Expected Output
 
 After running the notebook successfully, you should see:
 
 ```
-✓ Dataset loaded: 1460 training, 1459 test
-✓ Missing values analyzed and handled
-✓ 10+ visualizations displayed
-✓ Features engineered successfully
-✓ 3 models trained and compared
-✓ Best model: Gradient Boosting
-✓ Test predictions generated: 1459 records
-✓ predictions.csv created and ready for submission
+- Dataset loaded: 1460 training, 1459 test
+- Missing values analyzed and handled
+- 10+ visualizations displayed
+- Features engineered successfully
+- 3 models trained and compared
+- Best model: Gradient Boosting
+- Test predictions generated: 1459 records
+- predictions.csv created and ready for submission
 ```
 
 ---
 
-## ✨ Key Metrics Summary
+##  Key Metrics Summary
 
 | Metric | Value |
 |--------|-------|
@@ -348,25 +349,25 @@ After running the notebook successfully, you should see:
 
 This project demonstrates:
 
-✅ **Exploratory Data Analysis** 
+ **Exploratory Data Analysis** 
 - Dataset understanding and exploration
 - Data types and structure analysis
 - Missing values identification
 - Statistical summaries and distributions
 
-✅ **Data Cleaning** 
+ **Data Cleaning** 
 - Missing value imputation
 - Data quality checks
 - Feature preparation
 - Consistent train/test handling
 
-✅ **Visualization & Reporting** 
+ **Visualization & Reporting** 
 - 10+ professional visualizations
 - Clear insights and interpretations
 - Correlation and relationship analysis
 - Distribution and pattern identification
 
-✅ **Modeling & Evaluation** (20%)
+ **Modeling & Evaluation** (20%)
 - Multiple algorithms trained
 - Model comparison and selection
 - Performance metrics
@@ -374,14 +375,14 @@ This project demonstrates:
 
 ---
 
-## 📄 License
+##  License
 
 This project is based on the Kaggle House Prices dataset.  
 Original Data Source: [Dean De Cock, Truman State University](https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques/)
 
 ---
 
-**Ready to predict house prices? Let's go! 🎉**
+**Ready to predict house prices? Let's go!**
 
 ```bash
 jupyter notebook  house_price_data_analysis.ipynb
